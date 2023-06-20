@@ -1,0 +1,224 @@
+
+.capa{
+    position: fixed;
+	width: 100%;
+	height: 100vh;
+	z-index: -1;
+	top: 0;
+	left: 0;
+  background: linear-gradient(180deg, rgb(38, 38, 38),  rgb(42, 42, 42))
+
+}
+.cita {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 250px;
+}
+
+.contenido{
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 1rem;
+	color: rgb(156, 202, 142); 
+	margin-left: 10px;
+  background: rgba(255, 248, 248, 0.1);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.928) ;
+	backdrop-filter: blur(3px) ;
+}
+
+.beb{
+  margin-left: 30px;
+  letter-spacing: 4px;
+  font-size: 30px;
+  color: #fff;
+  width: 150px;
+}
+.idbe{
+  margin-left: 5px;
+  width: 100px;
+  color: #fff;
+}
+.nom{
+  width: 150px;
+  margin-left: 5px;
+  color: #fff;
+}
+.el{
+  width: 150px;
+  margin-left: 5px;
+  color: #fff;
+}
+.ed{
+  width: 150px;
+  margin-left: 5px;
+  color: #fff;
+}
+.tip{
+  width: 200px;
+  color: #fff;
+
+}
+.pre{
+  width: 80px;
+  color: #fff;
+
+}
+.edi{
+  width: 80px;
+}
+.eli{
+  width: 80px;
+}
+
+
+
+  .titu{
+    align-items: center;
+	padding-left: 1rem;
+	color: rgb(156, 202, 142); 
+	margin-left: 10px;
+  background: rgba(255, 248, 248, 0.1);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.928) ;
+	backdrop-filter: blur(3px) ;
+  width: 400px;
+  height: 80px;
+  margin-left: 550px ;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-top: 50px;
+    }
+    .titulo{
+     margin: 0;
+     font-size: 50px;
+     color: yellow;
+    }
+    .textt{
+      margin-left: 250px;
+    }
+    .regis{
+      margin: 0;
+      font-size: 50px;
+      color: rgb(225, 255, 2);
+     
+     }
+    
+    .beb{
+    color: #ffffff;
+
+    }
+    .tiuform{
+      color: yellow;
+    }
+    
+    
+   .btnedit{
+    position: relative;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    letter-spacing: 4px;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.2s;
+    background-color: #0b48ff;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 15px;
+    width: 90px;
+    height: 30px;
+}
+.btnedit:hover{
+   
+    cursor: pointer;
+ }
+ .btnelim{
+  position: relative;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  letter-spacing: 4px;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.2s;
+  background-color: #ff0000;
+  margin-top: 20px;
+  margin-left: 10px;
+  border-radius: 15px;
+  width: 100px;
+  height: 30px;
+}
+.btnelim:hover{
+ 
+  cursor: pointer;
+}
+.nuevabeb{
+  padding: 10px 20px;
+  color: rgb(0, 0, 0);
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.2s;
+  background-color: #d4d4d4;
+  margin-top: 20px;
+  margin-left: 30px;
+  border-radius: 15px;
+}
+.nuevabeb:hover{
+  cursor: pointer;
+}
+.editbeb{
+  padding: 10px 20px;
+  color: rgb(0, 0, 0);
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.2s;
+  background-color: #d4d4d4;
+  margin-top: 20px;
+  margin-left: 30px;
+  border-radius: 15px;
+}
+.editbeb:hover{
+  background: rgb(29, 2, 201);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgb(4, 171, 255), 0 0 40px rgb(4, 171, 255), 0 0 80px rgb(4, 171, 255);
+  transition-delay: 0ms;
+  cursor: pointer;
+}
+.servi{
+  margin-left: 240px;
+}
+
+.nombe{
+  width: 300px;
+  margin-left: 30px;
+
+}
+.tipo{
+  width: 300px;
+  margin-left: 30px;
+
+}
+
+.precio{
+  width: 300px;
+  margin-left: 30px;
+}
+.formu{
+	align-items: center;
+	padding-left: 1rem;
+	color: rgb(156, 202, 142); 
+	margin-left: 10px;
+  background: rgba(255, 248, 248, 0.1);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.928) ;
+	backdrop-filter: blur(3px) ;
+  width: 400px;
+  height: 300px;
+  margin-left: 550px ;
+}
